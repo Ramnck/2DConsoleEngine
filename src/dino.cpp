@@ -6,13 +6,6 @@ using Force = sge_impl::Vector2D;
 using Key = sge_impl::KeyHandler;
 using Dot = sge_impl::Point2D;
 
-// #define DINO1_BINARY "run1.bmp"
-// #define DINO2_BINARY "run2.bmp"
-// #define DINOJUMP_BINARY "jump.bmp"
-// #define GND_BINARY "ground.bmp"
-// #define SKY_BINARY "clouds.bmp"
-// #define CACTUS_BINARY "kamen.bmp" 
-// /*
 #define DINO1_BINARY _binary_res_run1_bmp_start
 #define DINO2_BINARY _binary_res_run2_bmp_start
 #define DINOJUMP_BINARY _binary_res_jump_bmp_start
@@ -26,7 +19,7 @@ extern uint8_t DINOJUMP_BINARY[];
 extern uint8_t CACTUS_BINARY[];
 extern uint8_t GND_BINARY[];
 extern uint8_t SKY_BINARY[];
-// */
+
 using namespace std;
 using namespace sge_impl;
 
