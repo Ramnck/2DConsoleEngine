@@ -13,12 +13,12 @@ using Dot = sge_impl::Point2D;
 // #define SKY_BINARY "clouds.bmp"
 // #define CACTUS_BINARY "kamen.bmp" 
 // /*
-#define DINO1_BINARY _binary_run1_bmp_start
-#define DINO2_BINARY _binary_run2_bmp_start
-#define DINOJUMP_BINARY _binary_jump_bmp_start
-#define GND_BINARY _binary_ground_bmp_start
-#define SKY_BINARY _binary_clouds_bmp_start
-#define CACTUS_BINARY _binary_kamen_bmp_start
+#define DINO1_BINARY _binary_res_run1_bmp_start
+#define DINO2_BINARY _binary_res_run2_bmp_start
+#define DINOJUMP_BINARY _binary_res_jump_bmp_start
+#define GND_BINARY _binary_res_ground_bmp_start
+#define SKY_BINARY _binary_res_clouds_bmp_start
+#define CACTUS_BINARY _binary_res_kamen_bmp_start
 
 extern uint8_t DINO1_BINARY[];
 extern uint8_t DINO2_BINARY[];
