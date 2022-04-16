@@ -15,7 +15,7 @@ SRC_OBJECTS=$(SOURCES:.cpp=.cpp.o)
 
 OBJECTS=$(SRC_OBJECTS) $(RES_OBJECTS)
 
-all: $(EXE) clean
+all: $(EXE)
 
 $(EXE): $(OBJECTS)
 	$(CC) $(OPTFLAGS) $(OBJECTS) -o $@
