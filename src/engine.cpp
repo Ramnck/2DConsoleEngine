@@ -442,7 +442,8 @@ GameScreen& GameScreen::print(const Sprite& spr) {
 }
 
 GameScreen& GameScreen::print(const Point2D& p) {
-	pixel(p.X, p.Y, '@');
+	if (!(between(col_m, int(p.X), col_m + width_m) && between(row_m, int(p.Y), row_m + height_m)))
+		pixel(p.X - col_m, p.Y - row_m, '@');
 	return *this;
 }
 
